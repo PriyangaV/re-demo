@@ -1,0 +1,39 @@
+{
+  "name": "re-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "source": "src/index.jsx",
+  "scripts": {
+    "build":"webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PriyangaV/re-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "react": "^17.0.2",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "bugs": {
+    "url": "https://github.com/PriyangaV/re-demo/issues"
+  },
+  "homepage": "https://github.com/PriyangaV/re-demo#readme"
+}
